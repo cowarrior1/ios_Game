@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define ADMOB_BANNER @"ca-app-pub-9500997683359172/6451338045"
+#define VUNGLE_APP_ID @"53a82b2c02803eb2260000fd"
+#define VUNGLE_REPORT_APP_ID @"53a82b2c02803eb2260000fd"
